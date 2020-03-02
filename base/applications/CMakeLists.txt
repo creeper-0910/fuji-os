@@ -40,10 +40,11 @@ add_subdirectory(sndrec32)
 add_subdirectory(sndvol32)
 add_subdirectory(taskmgr)
 add_subdirectory(utilman)
+add_subdirectory(welcome)
 add_subdirectory(winhlp32)
 add_subdirectory(winver)
 add_subdirectory(wordpad)
 add_subdirectory(write)
 add_subdirectory(wusa)
-add_subdirectory(welcome)
+
 

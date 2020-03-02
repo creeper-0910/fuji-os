@@ -1,0 +1,1 @@
+clean&configure -DENABLE_ROSTESTS=1 -DENABLE_ROSAPPS=1 ninja&cd output-MinGW-i386&makex bootcd

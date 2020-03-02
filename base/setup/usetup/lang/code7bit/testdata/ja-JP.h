@@ -1,86 +1,42 @@
 #pragma once
 
-static MUI_ENTRY jaJPSetupInitPageEntries[] =
-{
-    {
-        4,
-        3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
-    },
-    {
-        0,
-        20,
-        "SeasideOS ¾¯Ä±¯Ìß É ¼®·¶ Ä ÃÞÊÞ²½ É ¹Ý¼­Â",
-        TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER,
-        TEXT_ID_STATIC
-    },
-    {
-        0,
-        21,
-        "¦ µÏÁ ¸ÀÞ»²...",
-        TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER,
-        TEXT_ID_STATIC
-    },
-    {
-        0,
-        0,
-        "µÏÁ ¸ÀÞ»²...",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
-    },
-    {
-        0,
-        0,
-        NULL,
-        0
-    }
-};
-
 static MUI_ENTRY jaJPLanguagePageEntries[] =
 {
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
         "¹ÞÝºÞÉ ¾ÝÀ¸",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         10,
         "\x07  ²Ý½Ä°Ù¼ÞÆ ¼Ö³½Ù ¹ÞÝºÞ¦ ¾ÝÀ¸ ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         11,
         "   Â·ÞÆ¤ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         13,
         "\x07  ººÃÞ ¾ÝÀ¸ ¼À ¹ÞÝºÞÊ »²¼­³Ã·Æ ¼½ÃÑÉ ·Ã²É ¹ÞÝºÞÆ ¾¯Ã²»ÚÏ½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "ENTER = ¿Þ¯º³  F3 = Á­³¼",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -95,79 +51,68 @@ static MUI_ENTRY jaJPWelcomePageEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "SeasideOS ¾¯Ä±¯ÌßÍ Ö³º¿",
-        TEXT_STYLE_HIGHLIGHT,
-        TEXT_ID_STATIC
+        "ReactOS ¾¯Ä±¯ÌßÍ Ö³º¿",
+        TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "ºÉ ¾¯Ä±¯ÌßÉ ÀÞÝ¶²ÃÞÊ SeasideOS µÍßÚ°Ã¨Ý¸Þ¼½ÃÑ¦",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "ºÉ ¾¯Ä±¯ÌßÉ ÀÞÝ¶²ÃÞÊ ReactOS µÍßÚ°Ã¨Ý¸Þ¼½ÃÑ¦",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         12,
         "ºÝËß­°ÀÆ ºËß°¼¤ ¾¯Ä±¯ÌßÉ Â·ÞÉ ÀÞÝ¶²ÍÉ ¼Þ­ÝËÞ¦ ¼Ï½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         15,
-        "\x07  SeasideOS ¦ ²Ý½Ä°Ù / ±¯Ìß¸ÞÚ°ÄÞ ½Ù ÆÊ ENTER ¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  Press ENTER to install or upgrade ReactOS.",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  SeasideOS ¦ ¼­³Ì¸ Ó¼¸Ê º³¼Ý ½ÙÆÊ R ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  ReactOS ¦ ¼­³Ì¸ Ó¼¸Ê º³¼Ý ½ÙÆÊ R ·°¦ µ¼Ã ¸ÀÞ»²¡",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  SeasideOS É ×²¾Ý½¼Þ®³¹Ý¦ Ë®³¼Þ ½ÙÆÊ L ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  ReactOS É ×²¾Ý½¼Þ®³¹Ý¦ Ë®³¼Þ ½ÙÆÊ L ·°¦ µ¼Ã ¸ÀÞ»²¡",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "\x07  SeasideOS ¦ ²Ý½Ä°Ù ¾½ÞÆ Á­³¼½Ù ÊÞ±²Ê F3 ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  ReactOS ¦ ²Ý½Ä°Ù ¾½ÞÆ Á­³¼½Ù ÊÞ±²Ê F3 ·°¦ µ¼Ã ¸ÀÞ»²¡",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         23,
-        "SeasideOS É ¼®³»²Å ¼Þ®³Î³Æ ¶Ý¼ÃÊ ²¶¦ ºÞ×Ý ¸ÀÞ»²:",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "ReactOS É ¼®³»²Å ¼Þ®³Î³Æ ¶Ý¼ÃÊ ²¶¦ ºÞ×Ý ¸ÀÞ»²:",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         24,
         "http://www.reactos.org",
-        TEXT_STYLE_HIGHLIGHT,
-        TEXT_ID_STATIC
+        TEXT_STYLE_HIGHLIGHT
     },
     {
         0,
         0,
         "ENTER = ¿Þ¯º³  R = ¼­³Ì¸  L = ×²¾Ý½  F3 = Á­³¼",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -182,72 +127,62 @@ static MUI_ENTRY jaJPIntroPageEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "SeasideOS É ÊÞ°¼Þ®Ý ¼Þ®³À²",
-        TEXT_STYLE_HIGHLIGHT,
-        TEXT_ID_STATIC
+        "ReactOS Version Status",
+        TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "SeasideOS Ê ±ÙÌ§ ÀÞÝ¶² Æ ±Ø¤ ·É³ ¶Þ Ð¶Ý¾² ÃÞ",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "ReactOS is in Alpha stage, meaning it is not feature-complete",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         12,
-        "¶²ÊÂ Á­³ ÃÞ½¡ ¼À¶Þ¯Ã Ë®³¶ ÏÀÊ Ã½Ä Ó¸Ã· ÃÞ ÉÐ ¼Ö³",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "and is under heavy development. It is recommended to use it only for",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         13,
-        "½Ù ºÄ ¦ µ½½Ò ¼Ï½¡ ÆÁ¼Þ®³ Ã· Å ¼Ö³ ÆÊ µ½½Ò ÃÞ·Ï¾Ý¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "evaluation and testing purposes and not as your daily-usage OS.",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         15,
-        "¼Þ¯»² É Ê°ÄÞ³ª± ÃÞ ÀÒ½ ÊÞ±² Ê ÃÞ°À ¦ ÊÞ¯¸±¯Ìß ½Ù ¶",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "Backup your data or test on a secondary computer if you attempt",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         16,
-        "ÖËÞ É Êß¿ºÝ ÃÞ ¼Ö³ ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "to run ReactOS on real hardware.",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  ENTER ¦ µ½Ä ¿Þ¯º³ ¼Ï½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  Press ENTER to continue ReactOS Setup.",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "\x07  F3 ¦ µ½ Ä SeasideOS ¦ ²Ý½Ä°Ù ¾½ÞÆ ¼­³Ø®³ ¼Ï½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  Press F3 to quit without installing ReactOS.",
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
-        "ENTER = ¿Þ¯º³   F3 = ¼­³Ø®³",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        "ENTER = Continue   F3 = Quit",
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -262,135 +197,116 @@ static MUI_ENTRY jaJPLicensePageEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         6,
         "¼Ö³ ·®ÀÞ¸:",
-        TEXT_STYLE_HIGHLIGHT,
-        TEXT_ID_STATIC
+        TEXT_STYLE_HIGHLIGHT
     },
     {
         8,
         8,
-        "ºÉ SeasideOS ¼½ÃÑÊ ¸Ð±Ü¾ ¶É³Å ×²¾Ý½(X11 Ô¤BSD µÖËÞ",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "ºÉ ReactOS ¼½ÃÑÊ ¸Ð±Ü¾ ¶É³Å ×²¾Ý½(X11 Ô¤BSD µÖËÞ",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         9,
         "GNU LGPL ×²¾Ý½ ÅÄÞ)É º°ÄÞ¦ Ì¸Ñ Êß°ÂÄ ÄÓÆ GNU GPL É",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         10,
         "¼Þ®³¹ÝÉ ÓÄÆ ×²¾Ý½ »ÚÃ²Ï½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         11,
-        "SeasideOS ¼½ÃÑÉ ²ÁÌÞÉ ¿ÌÄ³ª±É ½ÍÞÃÊ SeasideOS ¼½ÃÑÉ ²ÁÌÞÃÞ",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "ReactOS ¼½ÃÑÉ ²ÁÌÞÉ ¿ÌÄ³ª±É ½ÍÞÃÊ ReactOS ¼½ÃÑÉ ²ÁÌÞÃÞ",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         12,
         "±ÙÕ´Æ GNU GPL ÀÞ¹ÃÞÅ¸¤ ¿É ¿ÌÄ³ª±É µØ¼ÞÅÙ ×²¾Ý½É ÓÄÆÓ",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         13,
         "ØØ°½ »ÚÃ ²Ï½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         15,
         "ºÉ ¿ÌÄ³ª±Ê 'ÑÎ¼®³'ÃÞ Ã³·®³ »Ú¤ Á²·Î³Ô º¸»²Î³¶Þ Ã·µ³»ÚÙ",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         16,
-        "ÊÞ±²¦ É¿Þ²Ã¤ ØÖ³ ¾²¹ÞÝ¦ ³¹Ï½¡ SeasideOS É ×²¾Ý½ ·®³ÖÊ",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "ÊÞ±²¦ É¿Þ²Ã¤ ØÖ³ ¾²¹ÞÝ¦ ³¹Ï½¡ ReactOS É ×²¾Ý½ ·®³ÖÊ",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
         "ÀÞ²»Ý¼¬ÍÉ ÊÝÊÞ²¦ Ì¾¸Þ ÀÞ¹ÃÞ½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         18,
-        "GNU General Public License ¦ SeasideOS Ä ÄÓÆ ³¹Ä×Å¶¯À",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "GNU General Public License ¦ ReactOS Ä ÄÓÆ ³¹Ä×Å¶¯À",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
         "ÊÞ±²Ê¤ Â·Þ¦ ºÞ»Ý¼®³ ¸ÀÞ»²",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         20,
         "http://www.gnu.org/licenses/licenses.html",
-        TEXT_STYLE_HIGHLIGHT,
-        TEXT_ID_STATIC
+        TEXT_STYLE_HIGHLIGHT
     },
     {
         8,
         22,
         "ËÝ¼Â Î¼®³:",
-        TEXT_STYLE_HIGHLIGHT,
-        TEXT_ID_STATIC
+        TEXT_STYLE_HIGHLIGHT
     },
     {
         8,
         24,
         "ºÚÊ ÌØ° ¿ÌÄ³ª±ÃÞ½¡ ¼®³»²Ê ¿°½É ºËß°¼Þ®³¹Ý¦ ºÞ×Ý ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
         "Î¼®³Ê Ï¯À¸ '±ØÏ¾Ý'¡ '¼¼Þ®³¾²' Ô 'Ã·ºÞ³¾²'",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         26,
         "Æµ²ÃÓ ÄÞ³Ö³ÃÞ½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "ENTER = ÓÄÞÙ",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -405,99 +321,85 @@ static MUI_ENTRY jaJPDevicePageEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
         "²¶É Ø½ÄÊ ¹ÞÝ»Þ²É ÃÞÊÞ²½ ¾¯Ã²ÃÞ½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         24,
         11,
         "ºÝËß­°À:",
-        TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT
     },
     {
         24,
         12,
         "ÃÞ¨½ÌßÚ²:",
-        TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT
     },
     {
         24,
         13,
         "·°ÎÞ°ÄÞ:",
-        TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT
     },
     {
         24,
         14,
         "·°ÎÞ°ÄÞ Ú²±³Ä:",
-        TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT
     },
     {
         24,
         16,
         "¼Þ­ÀÞ¸:",
-        TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT
     },
     {
         25,
         16, "ºÚ×É ÃÞÊÞ²½É ¾¯Ã²¦ ¼Þ­ÀÞ¸ ½Ù",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         19,
         "UP Ó¼¸Ê DOWN ·°¦ µ¼Ã ´ÝÄØ°¦ ¾ÝÀ¸ ½Ù ºÄÆÖØ",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         20,
         "Ê°ÄÞ³ª±É ¾¯Ã²¦ ÍÝº³ ÃÞ·Ï½¡ ¾ÝÀ¸ ¼À×¤ ENTER ·°¦ µ¼Ã Ã·¾ÂÅ ¾¯Ã²¦",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         21,
         "¾ÝÀ¸ ¼Ï½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         23,
         "ºÚ×É ¾¯Ã²¶Þ ½ÍÞÃ ÀÀÞ¼² ÊÞ±²Ê¤ \"ºÚ×É ÃÞÊÞ²½É ¾¯Ã²¦ ¼Þ­ÀÞ¸ ½Ù\" ¦ ¾ÝÀ¸ ¼Ã¤",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         24,
         "ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "ENTER = ¿Þ¯º³   F3 = Á­³¼",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -512,65 +414,56 @@ static MUI_ENTRY jaJPRepairPageEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "SeasideOS ¾¯Ä±¯ÌßÊ ¼®·¶²ÊÂ ÀÞÝ¶²Æ ±ØÏ½¡ ¿ÉÀÒ¤ ÏÀÞ",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "ReactOS ¾¯Ä±¯ÌßÊ ¼®·¶²ÊÂ ÀÞÝ¶²Æ ±ØÏ½¡ ¿ÉÀÒ¤ ÏÀÞ",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
         "¼Þ­³ÌÞÝÆ ØÖ³ ÃÞ·Ù ¾¯Ä±¯Ìß ±ÌßØ¹°¼®ÝÉ ½ÍÞÃÉ ·É³Ê »Îß°Ä »ÚÏ¾Ý¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         12,
         "¼­³Ì¸·É³Ê ÏÀÞ ¼Þ¯¿³ »ÚÃ ²Ï¾Ý¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         15,
         "\x07  OS ¦ º³¼Ý ½ÙÆÊ U ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
         "\x07  ¶²Ì¸ ºÝ¿°Ù¦ Ë×¸ÆÊ R ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
         "\x07  Ò²ÝÍß°¼ÞÆ ÓÄÞÙÆÊ ESC ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
         "\x07  ºÝËß­°À¦ »²·ÄÞ³ ½ÙÆÊ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "ESC = Ò²ÝÍß°¼Þ  U = º³¼Ý  R = ¶²Ì¸  ENTER = »²·ÄÞ³",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -585,72 +478,62 @@ static MUI_ENTRY jaJPUpgradePageEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "SeasideOS ¾¯Ä±¯Ìß Ê ¼À Æ Ú¯·® »ÚÀ ²Ý½Ä°Ù É ²½ÞÚ¶ ¶Þ ¶É³ ÃÞ½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "The ReactOS Setup can upgrade one of the available ReactOS installations",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
-        "Ó¼¸Ê¤ Ó¼ SeasideOS É ²Ý½Ä°Ù ¶Þ ¿Ý¼®³ ¼Ã ²ÚÊÞ ¾¯Ä±¯Ìß ÌßÛ¸Þ×Ñ Ê",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "listed below, or, if a ReactOS installation is damaged, the Setup program",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         10,
-        "¼­³Ì¸ ¦ ººÛÐÙ ºÄ ¶Þ ÃÞ·Ï½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "can attempt to repair it.",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         12,
-        "¼­³Ì¸ ·É³ Ê ÏÀÞ ¶Ý¾ÞÝ ÆÊ ¼Þ¯¿³ »ÚÃ ²Ï¾Ý¡",
-        TEXT_STYLE_HIGHLIGHT,
-        TEXT_ID_STATIC
+        "The repair functions are not all implemented yet.",
+        TEXT_STYLE_HIGHLIGHT
     },
     {
         8,
         15,
-        "\x07  UP ÏÀÊ DOWN ¦ µ¾ÊÞ OS É ²Ý½Ä°Ù ¦ ¾ÝÀ¸ ÃÞ·Ï½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  Press UP or DOWN to select an OS installation.",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  U ¦ µ¾ÊÞ ¾ÝÀ¸ ¼À ²Ý½Ä°Ù ¦ ±¯Ìß¸ÞÚ°ÄÞ ÃÞ·Ï½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  Press U for upgrading the selected OS installation.",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  ESC ¦ µ¾ÊÞ ±À×¼² ²Ý½Ä°Ù ÃÞ ¿Þ¯º³ ¼Ï½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  Press ESC to continue with a new installation.",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "\x07  F3 ¦ µ¾ÊÞ SeasideOS ¦ ²Ý½Ä°Ù ¾½ÞÆ ¼­³Ø®³ ¼Ï½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  Press F3 to quit without installing ReactOS.",
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
-        "U = ±¯Ìß¸ÞÚ°ÄÞ  ESC = ±¯Ìß¸ÞÚ°ÄÞ ¼Å²  F3 = ¼­³Ø®³",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        "U = Upgrade   ESC = Do not upgrade   F3 = Quit",
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -665,51 +548,44 @@ static MUI_ENTRY jaJPComputerPageEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
         "²Ý½Ä°Ù »ÚÙ ºÝËß­°ÀÉ ¼­Ù²¦ ÍÝº³ ½Ù ºÄ¶Þ ¾ÝÀ¸ »ÚÏ¼À¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         10,
         "\x07  UP Ó¼¸Ê DOWN ·°¦ µ¼Ã Ã·½Ù ºÝËß­°ÀÉ ¼­Ù²¦ ¾ÝÀ¸ ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         11,
         "   Â·ÞÆ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         13,
         "\x07  ºÝËß­°ÀÉ ¼­Ù²¦ ÍÝº³¾½ÞÆ Ï´É Íß°¼ÞÆ ÓÄÞÙ ÊÞ±²Ê ESC ·°¦",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         14,
         "   µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "ENTER = ¿Þ¯º³   ESC = ·¬Ý¾Ù   F3 = Á­³¼",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -724,37 +600,32 @@ static MUI_ENTRY jaJPFlushPageEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
         "¼½ÃÑÊ ¶¸¼ÞÂÆ ½ÍÞÃÉ ÃÞ°À¶Þ ÃÞ¨½¸¼Þ®³Æ Î¿ÞÝ »ÚÙ Ö³Æ ¼Ã²Ï½",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         10,
         8,
         "ºÚÆÊ ¼®³¼®³ ¼Þ¶Ý¶Þ ¶¶Ù ÊÞ±²¶Þ ±ØÏ½",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         10,
         9,
         "¶ÝØ®³ºÞ¤ ºÝËß­°ÀÊ ¼ÞÄÞ³ÃÆ »²·ÄÞ³ »ÚÏ½",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "·¬¯¼­¦ ¼®³·® ¼Ã ²Ï½",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -769,44 +640,38 @@ static MUI_ENTRY jaJPQuitPageEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "SeasideOS Ê ¶Ý¾ÞÝÆ ²Ý½Ä°Ù »ÚÏ¾ÝÃÞ¼À",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "ReactOS Ê ¶Ý¾ÞÝÆ ²Ý½Ä°Ù »ÚÏ¾ÝÃÞ¼À",
+        TEXT_STYLE_NORMAL
     },
     {
         10,
         8,
         "ÄÞ×²ÌÞ A: ¶× ÌÛ¯Ëß° ÃÞ¨½¸¤ CD ÄÞ×²ÌÞ¶×",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         10,
         9,
         "½ÍÞÃÉ CD-ROM ¦ ÄØÀÞ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         10,
         11,
         "ºÝËß­°À¦ »²·ÄÞ³ ½ÙÆÊ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
-        "µÏÁ ¸ÀÞ»²...",
+        "µÏÁ ¸ÀÞ»² ...",
         TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
     },
     {
         0,
@@ -821,51 +686,43 @@ static MUI_ENTRY jaJPDisplayPageEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
         "²Ý½Ä°Ù »ÚÙ ÃÞ¨½ÌßÚ²É ¼­Ù²¦ ÍÝº³ ½Ù ºÄ¶Þ ¾ÝÀ¸ »ÚÏ¼À¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
-    {
-        8,
+    {   8,
         10,
          "\x07  UP Ó¼¸Ê DOWN ·°¦ µ¼Ã Ã·½Ù ÃÞ¨½ÌßÚ²É ¼­Ù²¦ ¾ÝÀ¸ ¼Ã ¸ÀÞ»²¡",
-         TEXT_STYLE_NORMAL,
-         TEXT_ID_STATIC
+         TEXT_STYLE_NORMAL
     },
     {
         8,
         11,
         "   Â·ÞÆ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         13,
         "\x07  ÃÞ¨½ÌßÚ²É ¼­Ù²¦ ÍÝº³¾½ÞÆ Ï´É Íß°¼ÞÆ ÓÄÞÙÆÊ ESC ·°¦",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         14,
         "   µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "ENTER = ¿Þ¯º³   ESC = ·¬Ý¾Ù   F3 = Á­³¼",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -880,44 +737,38 @@ static MUI_ENTRY jaJPSuccessPageEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "SeasideOS É ·ÎÝÌÞÌÞÝÉ ²Ý½Ä°ÙÊ ¾²º³ ¼Ï¼À¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "ReactOS É ·ÎÝÌÞÌÞÝÉ ²Ý½Ä°ÙÊ ¾²º³ ¼Ï¼À¡",
+        TEXT_STYLE_NORMAL
     },
     {
         10,
         8,
         "ÄÞ×²ÌÞ A: ¶× ÌÛ¯Ëß° ÃÞ¨½¸¤ CD ÄÞ×²ÌÞ¶×",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         10,
         9,
         "½ÍÞÃÉ CD-ROM ¦ ÄØÀÞ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         10,
         11,
         "ºÝËß­°À¦ »²·ÄÞ³ ½ÙÆÊ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "ENTER = ºÝËß­°ÀÉ »²·ÄÞ³",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -932,44 +783,38 @@ static MUI_ENTRY jaJPBootPageEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
         "¾¯Ä±¯ÌßÊ ÌÞ°ÄÛ°ÀÞ¦ ºÝËß­°ÀÉ Ê°ÄÞÃÞ¨½¸¼Þ®³Æ ²Ý½Ä°Ù",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
         "ÃÞ·Ï¾ÝÃÞ¼À",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         13,
         "ÄÞ×²ÌÞ A: Æ Ì«°Ï¯Ä »ÚÀ ÌÛ¯Ëß° ÃÞ¨½¸¦ ²ÚÃ¤",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         14,
         "ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
         TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
     },
     {
         0,
         0,
         "ENTER = ¿Þ¯º³   F3 = Á­³¼",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -985,195 +830,63 @@ static MUI_ENTRY jaJPSelectPartitionEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
         "²¶É Ø½ÄÊ ¿Ý»Þ²½Ù Êß°Ã¨¼®ÝÄ ¼Ý· Êß°Ã¨¼®ÝÆ Ã·¼À Ð¼Ö³É",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
         "ÃÞ¨½¸ ½Íß°½É ²Á×ÝÃÞ½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         11,
         "\x07  UP Ó¼¸Ê DOWN ·°¦ µ¼Ã Ø½Ä ´ÝÄØ°¦ ¾ÝÀ¸ ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         13,
-        "\x07  ¾ÝÀ¸»ÚÀ Êß°Ã¨¼®ÝÆ SeasideOS ¦ ²Ý½Ä°Ù ½ÙÆÊ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  ¾ÝÀ¸»ÚÀ Êß°Ã¨¼®ÝÆ ReactOS ¦ ²Ý½Ä°Ù ½ÙÆÊ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         15,
-        "\x07  P ¦ µ¾ÊÞ Ìß×²ÏØ° Êß°Ã¨¼®Ý ¦ »¸¾² ¼Ï½¡",
+        "\x07  Press P to create a primary partition.",
 //        "\x07  ±À×¼² Êß°Ã¨¼®Ý ¦ »¸¾² ½ÙÆÊ C ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  E ¦ µ¾ÊÞ ¶¸Á®³ Êß°Ã¨¼®Ý ¦ »¸¾² ¼Ï½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  Press E to create an extended partition.",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  L ¦ µ¾ÊÞ ÛÝØ Êß°Ã¨¼®Ý ¦ »¸¾² ¼Ï½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  Press L to create a logical partition.",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
         "\x07  ·¿ÝÉ Êß°Ã¨¼®Ý¦ »¸¼Þ® ½ÙÆÊ D ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "µÏÁ ¸ÀÞ»²...",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
-    },
-    {
-        0,
-        0,
-        NULL,
-        0
-    }
-};
-
-static MUI_ENTRY jaJPChangeSystemPartition[] =
-{
-    {
-        4,
-        3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
-    },
-    {
-        6,
-        8,
-        "¼½ÃÑ ÃÞ¨½¸ Æ ±Ù ±ÅÀ É Êß¿ºÝ É ¹ÞÝ»Þ² É ¼½ÃÑ",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        6,
-        12,
-        "Êß°Ã¨¼®Ý Ê SeasideOS ÃÞ »Îß°Ä »ÚÃ ²Å² ¹²¼· ¦",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        6,
-        16,
-        "Â¶¯Ã ²Ï½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        6,
-        18,
-        "SeasideOS ¦ ÌÞ¼ÞÆ ¾²º³ »¾Ù ÀÒ ÆÊ¤ ¾¯Ä±¯Ìß ÌßÛ¸Þ×Ñ Ê",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        6,
-        19,
-        "¹ÞÝ»Þ² É ¼½ÃÑ Êß°Ã¨¼®Ý ¦ ±À×¼² ÓÉ Æ ¶´Å²Ä ²¹Ï¾Ý¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        6,
-        21,
-        "±À×¼² ¼½ÃÑ Êß°Ã¨¼®Ý É º³Î Ê:",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        8,
-        25,
-        "\x07  ºÉ ¾ÝÀ¸ ¦ ³¹²ÚÙ Å× ENTER ¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        8,
-        27,
-        "\x07  ¼½ÃÑ Êß°Ã¨¼®Ý ¦ ¼­ÄÞ³ ÃÞ ÍÝº³ ½Ù Å×¤ ESC ¦ µ¼Ã",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        8,
-        28,
-        "   Êß°Ã¨¼®Ý ¾ÝÀ¸ Ø½Ä Æ ÓÄÞØ¤ ±À×¼² ¼½ÃÑ Êß°Ã¨¼®Ý ¦",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        8,
-        29,
-        "   ¾ÝÀ¸ ½Ù¶ »¸¾² ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        6,
-        32,
-        "Ó¼ ÓÄÉ ¼½ÃÑ Êß°Ã¨¼®Ý Æ ²¿ÞÝ½Ù Î¶É OS ¶Þ ±ÚÊÞ¤",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        6,
-        33,
-        "SeasideOS ²Ý½Ä°Ù É ±Ä Æ ±À×¼² ¼½ÃÑ Êß°Ã¨¼®Ý Æ",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        6,
-        34,
-        "»²¾¯Ã² ½Ù¶¤ ¼½ÃÑ Êß°Ã¨¼®Ý ¦ ÓÄ Æ ÓÄÞ½ ËÂÖ³ ¶Þ ",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        6,
-        35,
-        "±Ù ¶Ó ¼ÚÏ¾Ý¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        0,
-        0,
-        "ENTER = ¿Þ¯º³   ESC = ·¬Ý¾Ù",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -1188,100 +901,86 @@ static MUI_ENTRY jaJPConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "¼½ÃÑ Êß°Ã¨¼®Ý É »¸¼Þ® ‚ª ´×ÊÞÚ Ï¼À¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "You have chosen to delete the system partition.",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         10,
-        "¼½ÃÑ Êß°Ã¨¼®Ý ‚Í ¼ÝÀÞÝ ÌßÛ¸Þ×Ñ¤ Ê°ÄÞ³ª± ¾¯Ã² ÌßÛ¸Þ×Ñ¤ SeasideOS",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "System partitions can contain diagnostic programs, hardware configuration",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         11,
-        "ÅÄÞ É OS  Ô¤Ê°ÄÞ³ª± ¶²ÊÂÓÄ ¶Þ Ã²·®³ ½Ù Î¶É ÌßÛ¸Þ×Ñ ¦ ¶²¼ ½Ù",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "programs, programs to start an operating system (like ReactOS) or other",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         12,
-        "ÌßÛ¸Þ×Ñ ¦ Ì¸Ñ ºÄ ¶Þ ±ØÏ½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "programs provided by the hardware manufacturer.",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         14,
-        "¿ÉÖ³Å ÌßÛ¸Þ×Ñ ¶Þ Å² ¶ ¶¸ÆÝ ¼À ¶¤ »¸¼Þ® ¼Ã Ó ²²Ä· ÉÐ",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "Delete a system partition only when you are sure that there are no such",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         15,
-        "»¸¼Þ® ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "programs on the partition, or when you are sure you want to delete them.",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         16,
-        "Êß°Ã¨¼®Ý ¦ »¸¼Þ® ¼À Ä·¤ SeasideOS ¾¯Ä±¯Ìß ¶Þ ¼­³Ø®³ ½ÙÏÃÞ¤",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "When you delete the partition, you might not be able to boot the",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         17,
-        "Ê°ÄÞÃÞ¨½¸ ¶× ¿É ºÝËß­°À ¦ ·ÄÞ³ ÃÞ·Å² ¶Ó ¼ÚÏ¾Ý¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "computer from the harddisk until you finished the ReactOS Setup.",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         20,
-        "\x07  ENTER ¦ µ¾ÊÞ ¼½ÃÑ Êß°Ã¨¼®Ý ¦ »¸¼Þ® ¼Ï½¡ ¶¸ÆÝ É ÀÒ¤",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  Press ENTER to delete the system partition. You will be asked",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "   ±ÄÃÞ Ó³²ÁÄÞ À½ÞÈÏ½¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "   to confirm the deletion of the partition again later.",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         24,
-        "\x07  ESC ¦ µ¾ÊÞ Ï´ É Íß°¼Þ Í ÓÄÞØÏ½¡ Êß°Ã¨¼®Ý Ê",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  Press ESC to return to the previous page. The partition will",
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
-        "   »¸¼Þ® »ÚÏ¾Ý¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "   not be deleted.",
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
-        "ENTER=¿Þ¯º³  ESC=·¬Ý¾Ù",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        "ENTER=Continue  ESC=Cancel",
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -1296,36 +995,32 @@ static MUI_ENTRY jaJPFormatPartitionEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
         "Êß°Ã¨¼®ÝÉ Ì«°Ï¯Ä",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         10,
         "¾¯Ä±¯ÌßÊ Êß°Ã¨¼®Ý¦ Ì«°Ï¯Ä ¼Ï½¡ ¿Þ¯º³ ½ÙÆÊ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_FORMAT_PROMPT
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "ENTER = ¿Þ¯º³   F3 = Á­³¼",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
         0,
         NULL,
-        0
+        TEXT_STYLE_NORMAL
     }
 };
 
@@ -1334,51 +1029,44 @@ static MUI_ENTRY jaJPInstallDirectoryEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "¾¯Ä±¯ÌßÊ SeasideOS É Ì§²Ù¦ ¾ÝÀ¸ »ÚÀ Êß°Ã¨¼®Ý¼Þ®³Æ ²Ý½Ä°Ù ¼Ï½¡ SeasideOS ¦",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "¾¯Ä±¯ÌßÊ ReactOS É Ì§²Ù¦ ¾ÝÀ¸ »ÚÀ Êß°Ã¨¼®Ý¼Þ®³Æ ²Ý½Ä°Ù ¼Ï½¡ ReactOS ¦",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
         "²Ý½Ä°Ù½Ù ÃÞ¨Ú¸ÄØ¦ ¾¯Ã² ¼Ã ¸ÀÞ»²:",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         14,
         "½²¼®³ ÃÞ¨Ú¸ÄØ¦ ÍÝº³½ÙÆÊ¤ BACKSPACE ·°ÃÞ Ó¼Þ¦ »¸¼Þ® ¼À ±ÄÆ¤",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         15,
-        "SeasideOS ¦ ²Ý½Ä°Ù ½Ù ÃÞ¨Ú¸ÄØ¦ Æ­³Ø®¸",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "ReactOS ¦ ²Ý½Ä°Ù ½Ù ÃÞ¨Ú¸ÄØ¦ Æ­³Ø®¸",
+        TEXT_STYLE_NORMAL
     },
     {
         6,
         16,
         "¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "ENTER = ¿Þ¯º³   F3 = Á­³¼",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -1393,37 +1081,32 @@ static MUI_ENTRY jaJPFileCopyEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         0,
         12,
-        "SeasideOS ¾¯Ä±¯Ìß¶Þ SeasideOS ²Ý½Ä°Ù Ì«ÙÀÞÆ Ì§²Ù¦",
-        TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER,
-        TEXT_ID_STATIC
+        "ReactOS ¾¯Ä±¯Ìß¶Þ ReactOS ²Ý½Ä°Ù Ì«ÙÀÞÆ Ì§²Ù¦",
+        TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
         0,
         13,
         "ºËß° ½Ù ±²ÀÞ ¼ÊÞ×¸ µÏÁ ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
         0,
         14,
         "¶ÝØ®³ÏÃÞÆ ½³ÌÝ ¶¶Ù ÊÞ±²¶Þ ±ØÏ½¡",
-        TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
         50,
         0,
         "\xB3 µÏÁ ¸ÀÞ»²...    ",
-        TEXT_TYPE_STATUS,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS
     },
     {
         0,
@@ -1438,51 +1121,44 @@ static MUI_ENTRY jaJPBootLoaderEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
         "¾¯Ä±¯ÌßÊ ÌÞ°Ä Û°ÀÞ¦ ²Ý½Ä°Ù ¼Ï½",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         12,
         "Ê°ÄÞÃÞ¨½¸Æ ÌÞ°ÄÛ°ÀÞ°¦ ²Ý½Ä°Ù ¼Ï½ (MBR Ä VBR).",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         13,
         "Ê°ÄÞÃÞ¨½¸Æ ÌÞ°ÄÛ°ÀÞ°¦ ²Ý½Ä°Ù ¼Ï½ (VBR ÉÐ).",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         14,
         "ÌÞ°ÄÛ°ÀÞ¦ ÌÛ¯Ëß° ÃÞ¨½¸Æ ²Ý½Ä°Ù ½Ù¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         15,
         "ÌÞ°ÄÛ°ÀÞÉ ²Ý½Ä°Ù¦ ½·¯Ìß ½Ù¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "ENTER = ¿Þ¯º³   F3 = Á­³¼",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -1497,51 +1173,44 @@ static MUI_ENTRY jaJPKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
         "²Ý½Ä°Ù »ÚÙ ·°ÎÞ°ÄÞÉ ¼­Ù²¦ ÍÝº³ ½Ù ºÄ¶Þ ¾ÝÀ¸ »ÚÏ¼À¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         10,
         "\x07  UP Ó¼¸Ê DOWN ·°¦ µ¼Ã Ã·½Ù ·°ÎÞ°ÄÞÉ ¼­Ù²¦ ¾ÝÀ¸ ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         11,
         "   Â·ÞÆ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         13,
         "\x07  ·°ÎÞ°ÄÞÉ ¼­Ù²¦ ÍÝº³ ¾½ÞÆ Ï´É Íß°¼ÞÆ ÓÄÞÙÆÊ ESC·°¦",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         14,
         "   µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "ENTER = ¿Þ¯º³   ESC = ·¬Ý¾Ù   F3 = Á­³¼",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -1556,51 +1225,44 @@ static MUI_ENTRY jaJPLayoutSettingsEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
         "·Ã²É Ú²±³ÄÄ¼Ã ²Ý½Ä°Ù »ÚÙ Ú²±³Ä¦ ¾ÝÀ¸ ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         10,
         "\x07  UP Ó¼¸Ê DOWN ·°¦ µ¼Ã Ã·½Ù ·°ÎÞ°ÄÞ Ú²±³Ä¦ ¾ÝÀ¸ ¼Ã¤",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         11,
         "    Â·ÞÆ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         13,
         "\x07  ·°ÎÞ°ÄÞ Ú²±³Ä¦ ÍÝº³ ¾½ÞÆ Ï´É Íß°¼ÞÆ ÓÄÞÙÆÊ ESC ·°¦",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         14,
         "   µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "ENTER = ¿Þ¯º³   ESC = ·¬Ý¾Ù   F3 = Á­³¼",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -1616,23 +1278,20 @@ static MUI_ENTRY jaJPPrepareCopyEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "¾¯Ä±¯ÌßÊ SeasideOS ÉÌ§²Ù¦ ºÝËß­°ÀÆ ºËß° ½Ù ¼Þ­ÝËÞ¦ ¼Ã ²Ï½¡ ",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "¾¯Ä±¯ÌßÊ ReactOS ÉÌ§²Ù¦ ºÝËß­°ÀÆ ºËß° ½Ù ¼Þ­ÝËÞ¦ ¼Ã ²Ï½¡ ",
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "ºËß° ½Ù Ì§²ÙÉØ½Ä¦ »¸¾² Á­³...",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -1648,9 +1307,8 @@ static MUI_ENTRY jaJPSelectFSEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
@@ -1680,9 +1338,9 @@ static MUI_ENTRY jaJPSelectFSEntries[] =
         0,
         0,
         "ENTER = ¿Þ¯º³   ESC = ·¬Ý¾Ù   F3 = Á­³¼",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
+
     {
         0,
         0,
@@ -1696,44 +1354,38 @@ static MUI_ENTRY jaJPDeletePartitionEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
         "ºÉ Êß°Ã¨¼®Ý¦ »¸¼Þ® ½Ù ºÄ¶Þ ¾ÝÀ¸ »ÚÏ¼À",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         18,
-        "\x07  ºÉ Êß°Ã¨¼®Ý¦ »¸¼Þ® ½ÙÆÊ L ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        "\x07  ºÉ Êß°Ã¨¼®Ý¦ »¸¼Þ® ½ÙÆÊ D ·°¦ µ¼Ã ¸ÀÞ»²¡",
+        TEXT_STYLE_NORMAL
     },
     {
         11,
         19,
         "¹²º¸(WARNING): ºÉ Êß°Ã¨¼®Ý¼Þ®³É ½ÍÞÃÉ ÃÞ°ÀÊ ³¼ÅÜÚÏ½!",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
         "\x07  ·¬Ý¾Ù ½ÙÆÊ ESC ·°¦ µ¼Ã ¸ÀÞ»²¡",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
-        "L = Êß°Ã¼®Ý »¸¼Þ®   ESC = ·¬Ý¾Ù   F3 = Á­³¼",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        "D = Êß°Ã¼®Ý »¸¼Þ®   ESC = ·¬Ý¾Ù   F3 = Á­³¼",
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -1748,23 +1400,20 @@ static MUI_ENTRY jaJPRegistryEntries[] =
     {
         4,
         3,
-        " SeasideOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
-        TEXT_STYLE_UNDERLINE,
-        TEXT_ID_STATIC
+        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
         "¾¯Ä±¯ÌßÊ ¼½ÃÑÉ º³¾²¦ º³¼Ý ¼Ã²Ï½¡ ",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
+        TEXT_STYLE_NORMAL
     },
     {
         0,
         0,
         "Ú¼Þ½ÄØ Ê²ÌÞ¦ »¸¾² Á­³...",
-        TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
-        TEXT_ID_STATIC
+        TEXT_TYPE_STATUS | TEXT_PADDING_BIG
     },
     {
         0,
@@ -1779,32 +1428,17 @@ MUI_ERROR jaJPErrorEntries[] =
 {
     {
         // NOT_AN_ERROR
-        "¾²º³\n"
+        "Success\n"
     },
     {
         // ERROR_NOT_INSTALLED
-        "SeasideOS Ê ºÝËß­°ÀÆ ¶Ý¾ÞÝÆ ²Ý½Ä°Ù\n"
-        "»ÚÏ¾Ý¡ ¾¯Ä±¯Ìß¦ Á­³¼ ½Ù ÊÞ±²¤ SeasideOS ¦ ²Ý½Ä°Ù ½ÙÆÊ ¾¯Ä±¯Ìß¦\n"
+        "ReactOS Ê ºÝËß­°ÀÆ ¶Ý¾ÞÝÆ ²Ý½Ä°Ù\n"
+        "»ÚÏ¾Ý¡ ¾¯Ä±¯Ìß¦ Á­³¼ ½Ù ÊÞ±²¤ ReactOS ¦ ²Ý½Ä°Ù ½ÙÆÊ ¾¯Ä±¯Ìß¦\n"
         "Ó³²ÁÄÞ ¼Þ¯º³ ½Ù ËÂÖ³¶Þ ±ØÏ½¡\n"
         "\n"
         "  \x07  ¾¯Ä±¯Ìß¦ ¿Þ¯º³ ½ÙÆÊ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡\n"
         "  \x07  ¾¯Ä±¯Ìß¦ Á­³¼ ½ÙÆÊ F3 ·°¦ µ¼Ã ¸ÀÞ»²¡",
         "F3 = Á­³¼  ENTER = ¿Þ¯º³"
-    },
-    {
-        // ERROR_NO_BUILD_PATH
-        "SeasideOS ²Ý½Ä°Ù ÃÞ¨Ú¸ÄØ É ²Ý½Ä°Ù »· É Êß½ ¦ º³Á¸ ½Ù ÉÆ ¼¯Êß² ¼Ï¼À!\n"
-        "ENTER = »²·ÄÞ³"
-    },
-    {
-        // ERROR_SOURCE_PATH
-        "²Ý½Ä°Ù ÓÄ ¦ Ì¸Ñ Êß°Ã¨¼®Ý ¦ »¸¼Þ® ÃÞ·Ï¾Ý!\n"
-        "ENTER = »²·ÄÞ³"
-    },
-    {
-        // ERROR_SOURCE_DIR
-        "²Ý½Ä°Ù ÓÄ Å²ÌÞ Æ SeasideOS ¦ ²Ý½Ä°Ù ÃÞ·Ï¾Ý!\n"
-        "ENTER = »²·ÄÞ³"
     },
     {
         // ERROR_NO_HDD
@@ -1996,37 +1630,37 @@ MUI_ERROR jaJPErrorEntries[] =
     },
     {
         // ERROR_DIRECTORY_NAME,
-        "Ì¾² Å ÃÞ¨Ú¸ÄØ Ò² ÃÞ½¡\n"
+        "Invalid directory name.\n"
         "\n"
-        "  * ¿Þ¯º³ ½Ù ÆÊ ÅÆ¶ ·° ¦ µ¼Ã ¸ÀÞ»²¡"
+        "  * Press any key to continue."
     },
     {
         // ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "¾ÝÀ¸ ¼À Êß°Ã¨¼®Ý Ê¤ SeasideOS É ²Ý½Ä°Ù ÆÊ¤ Á²» ½·Þ Ï½¡\n"
-        "²Ý½Ä°Ù »· É Êß°Ã¨¼®Ý Ê ½¸Å¸ÄÓ %lu MB ËÂÖ³ ÃÞ½¡\n"
+        "The selected partition is not large enough to install ReactOS.\n"
+        "The install partition must have a size of at least %lu MB.\n"
         "\n"
-        "  * ¿Þ¯º³ ½Ù ÆÊ ÅÆ¶ ·° ¦ µ¼Ã ¸ÀÞ»²¡",
+        "  * Press any key to continue.",
         NULL
     },
     {
         // ERROR_PARTITION_TABLE_FULL,
-        "Êß°Ã¨¼®Ý Ã°ÌÞÙ ¶Þ ²¯Êß² ÅÉÃÞ¤ ºÉ ÃÞ¨½¸ Æ\n"
-        "±À×¼² Ìß×²ÏØ° ÏÀÊ ¶¸Á®³ Êß°Ã¨¼®Ý ¦ »¸¾² ÃÞ·Ï¾Ý¡\n"
+        "You can not create a new primary or extended partition in the\n"
+        "partition table of this disk because the partition table is full.\n"
         "\n"
-        "  * ¿Þ¯º³ ½Ù ÆÊ ÅÆ¶ ·° ¦ µ¼Ã ¸ÀÞ»²¡"
+        "  * Press any key to continue."
     },
     {
         // ERROR_ONLY_ONE_EXTENDED,
-        "ËÄÂ É ÃÞ¨½¸ Æ ²¯º²¼Þ®³ É ¶¸Á®³ Êß°Ã¨¼®Ý ¦ »¸¾² ÃÞ·Ï¾Ý¡\n"
+        "You can not create more than one extended partition per disk.\n"
         "\n"
-        "  * ¿Þ¯º³ ½Ù ÆÊ ÅÆ¶ ·° ¦ µ¼Ã ¸ÀÞ»²¡"
+        "  * Press any key to continue."
     },
     {
         // ERROR_FORMATTING_PARTITION,
-        "¾¯Ä±¯Ìß Ê ºÉ Êß°Ã¨¼®Ý ¦ Ì«°Ï¯Ä ÃÞ·Ï¾Ý:\n"
+        "Setup is unable to format the partition:\n"
         " %S\n"
         "\n"
-        "ENTER = ºÝËß­°À É »²·ÄÞ³"
+        "ENTER = Reboot computer"
     },
     {
         NULL,
@@ -2036,10 +1670,6 @@ MUI_ERROR jaJPErrorEntries[] =
 
 MUI_PAGE jaJPPages[] =
 {
-    {
-        SETUP_INIT_PAGE,
-        jaJPSetupInitPageEntries
-    },
     {
         LANGUAGE_PAGE,
         jaJPLanguagePageEntries
@@ -2083,10 +1713,6 @@ MUI_PAGE jaJPPages[] =
     {
         SELECT_PARTITION_PAGE,
         jaJPSelectPartitionEntries
-    },
-    {
-        CHANGE_SYSTEM_PARTITION,
-        jaJPChangeSystemPartition
     },
     {
         CONFIRM_DELETE_SYSTEM_PARTITION_PAGE,
@@ -2166,12 +1792,12 @@ MUI_STRING jaJPStrings[] =
     {STRING_PARTITIONSIZE,
      "±À×¼² Êß°Ã¨¼®ÝÉ »²½Þ:"},
     {STRING_CHOOSENEWPARTITION,
-     "Ìß×²ÏØ° Êß°Ã¨¼®Ý É »¸¾² ¦ ´×ËÞ Ï¼À"},
+     "You have chosen to create a primary partition on"},
 //     "±À×¼² Êß°Ã¨¼®Ý¦ Â·ÞÆ »¸¾²½Ù ºÄ¶Þ ¾ÝÀ¸ »ÚÏ¼À:"},
     {STRING_CHOOSE_NEW_EXTENDED_PARTITION,
-     "¶¸Á®³ Êß°Ã¨¼®Ý É »¸¾² ¦ ´×ËÞ Ï¼À"},
+     "You have chosen to create an extended partition on"},
     {STRING_CHOOSE_NEW_LOGICAL_PARTITION,
-     "ÛÝØ Êß°Ã¨¼®Ý É »¸¾² ¦ ´×ËÞ Ï¼À"},
+     "You have chosen to create a logical partition on"},
     {STRING_HDDSIZE,
     "±À×¼² Êß°Ã¨¼®ÝÉ »²½Þ¦ Ò¶ÞÊÞ²Ä ÀÝ²ÃÞ Æ­³Ø®¸ ¼Ã¸ÀÞ»²¡"},
     {STRING_CREATEPARTITION,
@@ -2179,13 +1805,13 @@ MUI_STRING jaJPStrings[] =
     {STRING_PARTFORMAT,
     "ºÉ Êß°Ã¨¼®ÝÊ Â·ÞÉ Ã¼Þ­ÝÃÞ Ì«°Ï¯Ä »ÚÏ½¡"},
     {STRING_NONFORMATTEDPART,
-    "SeasideOS¦ ¼Ý· ÏÀÊ ÐÌ«°Ï¯ÄÉ Êß°Ã¨¼®ÝÆ ²Ý½Ä°Ù½Ù ºÄ¶Þ ¾ÝÀ¸ »ÚÏ¼À¡"},
+    "ReactOS¦ ¼Ý· ÏÀÊ ÐÌ«°Ï¯ÄÉ Êß°Ã¨¼®ÝÆ ²Ý½Ä°Ù½Ù ºÄ¶Þ ¾ÝÀ¸ »ÚÏ¼À¡"},
     {STRING_NONFORMATTEDSYSTEMPART,
-    "¼½ÃÑ Êß°Ã¨¼®Ý Ê ÏÀÞ Ì«°Ï¯Ä »ÚÃ ²Ï¾Ý¡"},
+    "The system partition is not formatted yet."},
     {STRING_NONFORMATTEDOTHERPART,
-    "±À×¼² Êß°Ã¨¼®Ý Ê ÏÀÞ Ì«°Ï¯Ä »ÚÃ ²Ï¾Ý¡"},
+    "The new partition is not formatted yet."},
     {STRING_INSTALLONPART,
-    "¾¯Ä±¯ÌßÊ SeasideOS¦ Êß°Ã¨¼®Ý ¼Þ®³Æ ²Ý½Ä°Ù¼Ï½¡"},
+    "¾¯Ä±¯ÌßÊ ReactOS¦ Êß°Ã¨¼®Ý ¼Þ®³Æ ²Ý½Ä°Ù¼Ï½¡"},
     {STRING_CHECKINGPART,
     "¾¯Ä±¯ÌßÊ ¾ÝÀ¸ »ÚÀ Êß°Ã¨¼®Ý¦ ¹Ý» ¼Ã²Ï½¡"},
     {STRING_CONTINUE,
@@ -2195,11 +1821,11 @@ MUI_STRING jaJPStrings[] =
     {STRING_REBOOTCOMPUTER,
     "ENTER = ºÝËß­°ÀÉ »²·ÄÞ³"},
     {STRING_DELETING,
-     "   Ì§²Ù É »¸¼Þ®: %S"},
+     "   Deleting file: %S"},
     {STRING_MOVING,
-     "   Ì§²Ù É ²ÄÞ³: %S ¶×: %S"},
+     "   Moving file: %S to: %S"},
     {STRING_RENAMING,
-     "   ÅÏ´ É ÍÝº³: %S to: %S"},
+     "   Renaming file: %S to: %S"},
     {STRING_COPYING,
      "   ºËß° Á­³É Ì§²Ù: %S"},
     {STRING_SETUPCOPYINGFILES,
@@ -2221,7 +1847,7 @@ MUI_STRING jaJPStrings[] =
     {STRING_REBOOTCOMPUTER2,
     "   ENTER = ºÝËß­°ÀÉ »²·ÄÞ³"},
     {STRING_REBOOTPROGRESSBAR,
-    " %li ËÞ®³ºÞ Æ »²·ÄÞ³ »ÚÏ½... "},
+    " Your computer will reboot in %li second(s)... "},
     {STRING_CONSOLEFAIL1,
     "ºÝ¿°Ù¦ µ°ÌßÝ ÃÞ·Ï¾Ý\r\n\r\n"},
     {STRING_CONSOLEFAIL2,
@@ -2267,7 +1893,7 @@ MUI_STRING jaJPStrings[] =
     {STRING_MAXSIZE,
     "MB (»²ÀÞ². %lu MB)"},
     {STRING_EXTENDED_PARTITION,
-    "¶¸Á®³ Êß°Ã¨¼®Ý"},
+    "Extended Partition"},
     {STRING_UNFORMATTED,
     "¼Ý· (ÐÌ«°Ï¯Ä)"},
     {STRING_FORMATUNUSED,
